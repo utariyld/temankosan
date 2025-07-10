@@ -445,10 +445,6 @@ if (isset($_GET['id'])) {
                 <i class="fas fa-arrow-left"></i>
                 <span>Kembali ke Beranda</span>
             </a>
-            <div class="user-info">
-                <div class="user-avatar"><?php echo strtoupper(substr($_SESSION['user']['name'], 0, 1)); ?></div>
-                <span><?php echo htmlspecialchars($_SESSION['user']['name']); ?></span>
-            </div>
         </div>
     </nav>
 
