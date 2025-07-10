@@ -1,6 +1,6 @@
 <?php
-require_once 'config/database.php';
-require_once 'models/BaseModel.php';
+require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/BaseModel.php';
 
 /**
  * Kos Model
