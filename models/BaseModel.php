@@ -1,5 +1,5 @@
 <?php
-require_once 'config/Database.php';
+require_once __DIR__ . '/../config/database.php';
 
 /**
  * Base Model Class
@@ -14,7 +14,7 @@ abstract class BaseModel {
     protected $timestamps = true;
 
     public function __construct() {
-        $this->db = new Database();
+        $this->db = Database::getInstance();
     }
 
     /**
